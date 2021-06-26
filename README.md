@@ -1,2 +1,3 @@
-# goit-markup-hw-02
-Homework for GoIT - 02
+# Homework for GoIT - 01
+
+https://olegsavchuk95.github.io/goit-markup-hw-01/
