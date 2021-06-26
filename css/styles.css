@@ -1,0 +1,153 @@
+body {
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.list {
+
+   list-style-type: none; 
+
+}
+
+.logo {
+    
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.3em;
+    letter-spacing: 0.03em;
+
+    text-decoration: none;
+
+}
+
+.blue-web {
+
+    color: #2196F3;;
+
+}
+
+.white-word {
+
+    color: #ffffff;
+
+}
+
+.nav-links  {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.02em;
+
+    text-decoration: none;
+
+}
+
+.nav-links :hover {
+
+    color: #2196F3;
+
+}
+
+
+.contacts,
+.contacts-footer {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.02em;
+
+}
+
+.contacts-links {
+
+    color: #757575;
+
+}
+
+.header {
+
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.4em;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+    background-color: #2F303A;
+
+}
+
+.features h3 {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14em; 
+
+}
+
+.features p {
+
+    font-size: 14px;
+    line-height: 1,71em;
+
+    color: #757575;
+}
+
+.what-we-do h2 {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,16em;
+    text-align: center;
+
+}
+
+.our-team {
+
+    background: #F5F4FA;
+
+}
+
+.our-team h2 {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,16em;
+    text-align: center;
+
+}
+
+.our-team h3 {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2em;
+
+}
+
+.our-team p {
+
+    font-size: 16px;
+    line-height: 1.2em;
+
+}
+
+.footer {
+
+    background-color: #2F303A;
+
+}
+
+.address {
+    color: #ffffff;
+}

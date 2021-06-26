@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- Header -->
     <header>
 
-        <a href="#">WebStudio</a>
+        <a class="logo" href="#"><span class="blue-web">Web</span>Studio</a>
 
         <nav class="nav-links">
-            <ul>
+            <ul class="list">
                 <li>
-                    <a href="https://olegsavchuk95.github.io/goit-markup-hw-01/">Студия</a>
+                    <a href="./index.html">Студия</a>
                 </li>
                 <li>
-                    <a href="https://olegsavchuk95.github.io/goit-markup-hw-02/">Потрфолио</a>
+                    <a href="./portfolio.html">Потрфолио</a>
                 </li>
                 <li>
                     <a href="#">Контакты</a>
@@ -27,9 +28,9 @@
             </ul>
         </nav>
 
-        <div class="contacts">
-            <a href="mailto:info@devstudio.com" class="my-e-mail">info@devstudio.com</a>
-            <a href="tel:+38-096-111-11-11" class="my-cell-number">+38 096 111 11 11</a>
+        <div class="contacts-footer">
+            <a class="contacts-links" href="mailto:info@devstudio.com" class="my-e-mail">info@devstudio.com</a><br>
+            <a class="contacts-links" href="tel:+38-096-111-11-11" class="my-cell-number">+38 096 111 11 11</a>
         </div>
         
     </header>
@@ -38,8 +39,8 @@
 
     <main>
         <!-- Buttons -->
-        <section class="butoons">
-            <ul class="buttons-list">
+        <section class="filter">
+            <ul class="list">
                 <li>
                     <button type="button">Все</button>
                 </li>
@@ -63,10 +64,10 @@
         </section>
 
         <section class="our-works">
-            <ul class="our-works-list">
+            <ul class="list">
                 <li>
                     <a href="">
-                        <img src="./images/techno-cryck.jpg" alt="Технокряк">
+                        <img src="./images/techno-cryck.jpg" alt="Технокряк" width="370" height="294">
                         <h3>Технокряк</h3>
                         <p>Веб-сайт</p>
                     </a>
@@ -74,7 +75,7 @@
 
                 <li>
                     <a href="">
-                        <img src="./images/new-orlean.jpg" alt="Постер New Orlean vs Golden Star">
+                        <img src="./images/new-orlean.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294">
                         <h3>Постер New Orlean vs Golden Star</h3>
                         <p>Дизайн</p>
                     </a>
@@ -82,7 +83,7 @@
 
                 <li>
                     <a href="">
-                        <img src="./images/seafood.jpg" alt="Ресторан Seafood">
+                        <img src="./images/seafood.jpg" alt="Ресторан Seafood" width="370" height="294">
                         <h3>Ресторан Seafood</h3>
                         <p>Приложение</p>
                     </a>
@@ -90,7 +91,7 @@
 
                 <li>
                     <a href="">
-                        <img src="./images/project-prime.jpg" alt="Проект Prime">
+                        <img src="./images/project-prime.jpg" alt="Проект Prime" width="370" height="294">
                         <h3>Проект Prime</h3>
                         <p>Маркетинг</p>
                     </a>
@@ -98,7 +99,7 @@
 
                 <li>
                     <a href="">
-                        <img src="./images/project-boxes.jpg" alt="Проект Boxes">
+                        <img src="./images/project-boxes.jpg" alt="Проект Boxes" width="370" height="294">
                         <h3>Проект Boxes</h3>
                         <p>Приложение</p>
                     </a>
@@ -106,7 +107,7 @@
 
                 <li>
                     <a href="">
-                        <img src="./images/no-borders.jpg" alt="Inspiration has no Borders">
+                        <img src="./images/no-borders.jpg" alt="Inspiration has no Borders" width="370" height="294">
                         <h3>Inspiration has no Borders</h3>
                         <p>Веб-сайт</p>
                     </a>
@@ -114,7 +115,7 @@
 
                 <li>
                     <a href="">
-                        <img src="./images/limited-edition.jpg" alt="Издание Limited Edition">
+                        <img src="./images/limited-edition.jpg" alt="Издание Limited Edition" width="370" height="294">
                         <h3>Издание Limited Edition</h3>
                         <p>Дизайн</p>
                     </a>
@@ -122,7 +123,7 @@
 
                 <li>
                     <a href="">
-                        <img src="./images/project-lab.jpg" alt="Проект LAB">
+                        <img src="./images/project-lab.jpg" alt="Проект LAB" width="370" height="294">
                         <h3>Проект LAB</h3>
                         <p>Маркетинг</p>
                     </a>
@@ -130,7 +131,7 @@
 
                 <li>
                     <a href="">
-                        <img src="./images/growing-business.jpg" alt="Growing Business">
+                        <img src="./images/growing-business.jpg" alt="Growing Business" width="370" height="294">
                         <h3>Growing Business</h3>
                         <p>Приложение</p>
                     </a>
@@ -140,17 +141,17 @@
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
 
-        <a href="#">WebStudio</a>
+        <a class="logo" href="#"><span class="blue-web">Web</span><span class="white-word">Studio</span></a>
 
-        <address>
+        <address class="address">
             г. Киев, пр-т Леси Украинки, 26
         </address>
 
         <div class="contacts-footer">
-            <a href="mailto:info@devstudio.com" class="my-e-mail">info@devstudio.com</a><br>
-            <a href="tel:+38-096-111-11-11" class="my-cell-number">+38 096 111 11 11</a>
+            <a class="contacts-links" href="mailto:info@devstudio.com" class="my-e-mail">info@devstudio.com</a><br>
+            <a class="contacts-links" href="tel:+38-096-111-11-11" class="my-cell-number">+38 096 111 11 11</a>
         </div>
 
     </footer>
